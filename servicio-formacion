@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    loadbalancer:
+      enabled: true
+
+server:
+  port: 9000
+
+springdoc:
+  packages-to-scan: com.curso.controller
+  paths-to-match: "/**"
+
+app:
+  user: user3
+  pass: user3
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
