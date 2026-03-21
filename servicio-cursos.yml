@@ -19,9 +19,6 @@ springdoc:
   packages-to-scan: com.curso.controller
   paths-to-match: /**
 
-server:
-  port: 8080
-
 eureka:
   client:
     register-with-eureka: true
