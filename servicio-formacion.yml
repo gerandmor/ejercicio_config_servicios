@@ -4,7 +4,7 @@ spring:
       enabled: true
 
 server:
-  port: 9000
+  port: 8080
 
 springdoc:
   packages-to-scan: com.curso.controller
